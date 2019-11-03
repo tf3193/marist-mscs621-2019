@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: myservice
-        image: mscs621/myservice:0.0.1
+        image: taflagg/myservice:0.0.1
         env: 
           - name: REDIS_ADDR
             value: "127.0.0.1"
